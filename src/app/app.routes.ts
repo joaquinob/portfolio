@@ -6,6 +6,7 @@ import { SoftSkillCardComponent } from './components/pages/cards/soft-skill-card
 import { StudiesCardComponent } from './components/pages/cards/studies-card/studies-card.component';
 import { ProyectsCardComponent } from './components/pages/cards/proyects-card/proyects-card.component';
 import { HobbiesCardComponent } from './components/pages/cards/hobbies-card/hobbies-card.component';
+import { CvComponent } from './components/pages/cv/cv.component';
 
 export const routes: Routes = [
     {
@@ -31,6 +32,10 @@ export const routes: Routes = [
     {
         path: "proyects",
         component: ProyectsCardComponent,
+    },
+    {
+        path: "cv",
+        component: CvComponent,
     },
     {
         path: "hobbies",
