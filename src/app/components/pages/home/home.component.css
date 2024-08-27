@@ -18,26 +18,10 @@
     transform:scale(1.1) 
 }
 
-.portfolio{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
-a{
-    text-decoration: none;
-    color: inherit;
-}
 
 .id{
     padding: 1rem;
     display: flex;
     justify-content: center;
-}
-h1{
-    
-    color: #051f20;
-}
-a{
-    padding: 4.5rem 13rem  4.5rem 13rem;
 }

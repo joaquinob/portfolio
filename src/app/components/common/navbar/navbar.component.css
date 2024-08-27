@@ -1,12 +1,29 @@
-*{
-    background-color: #0b2b26;
+nav{
+    background-color: #daf1de;
+    position: absolute;
+    width: 100%;
+}
+.nav-link{
+    border-radius: 23px;
+    padding: 10px;
+    background-color: #8eb69b;
+    border: 1px solid #163832;
+}
+
+.nav-link:hover{
+    transform: scale(1.04);
+    background-color: #163832;
+    border: 1px solid  #051f20;
     color: #daf1de;
 }
-
-img{
-    border-radius: 10px;
+.navbar-nav{
+    gap: 10px;
 }
 
-div{
-    border-radius: 10px;
+i{
+    width: 30px;
+}
+a{
+    text-decoration: none;
+    color: #163832;
 }

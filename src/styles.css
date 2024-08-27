@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    padding-top: 100px; /* Ajusta este valor si tu navbar tiene una altura diferente */
+body { /* Ajusta este valor si tu navbar tiene una altura diferente */
     background-color: #daf1de;
   }
   
