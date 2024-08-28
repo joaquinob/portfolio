@@ -16,3 +16,7 @@ html, body {
     color: #daf1de;
   }
   
+  .btn{
+    border: 1px solid #daf1de;
+    margin-right: 5px;
+  }
