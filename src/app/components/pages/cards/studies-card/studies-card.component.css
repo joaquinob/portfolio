@@ -6,3 +6,12 @@
     border: 1px solid #163832;
     border-radius: 15px;
 }
+.responsive-img {
+    width: 60%; /* Tamaño por defecto para pantallas grandes */
+}
+
+@media (max-width: 768px) {
+    .responsive-img {
+        width: 85%; /* Tamaño para pantallas pequeñas */
+    }
+}
