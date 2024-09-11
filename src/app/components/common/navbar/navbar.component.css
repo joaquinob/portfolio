@@ -28,6 +28,11 @@ a{
     color: #163832;
 }
 
+.icono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .icon:hover{
     transform: scale(1.2);
 }
