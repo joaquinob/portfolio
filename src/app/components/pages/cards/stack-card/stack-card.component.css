@@ -1,11 +1,14 @@
 .main{
     margin-top:100px;
-    color: #163832
+    color: #163832;
 }
 .nav-link{
     color:#235347;
 }
 
+.tab-pane{
+    padding: 2rem;
+}
 .tab-content{
     display: flex;
     gap: 5rem;
@@ -18,10 +21,11 @@
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    font-size: 100px;
+    font-size: 8vw;
 }
 .stack{
     display: flex;
+    flex-wrap: wrap;
     gap: 5rem;
     justify-content: center;
     align-items: center;

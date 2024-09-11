@@ -34,3 +34,24 @@ h2{
     border: 1px solid #163832;
     border-radius: 20px;
 }
+.navbar {
+    z-index: 1000; /* Un valor alto para asegurarte que esté por encima del contenido */
+}
+
+.carousel {
+    z-index: 1; /* Un valor más bajo */
+}
+
+.carousel-descriptions {
+    margin-top: 20px;
+}
+
+.carousel-descriptions .description {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .carousel-descriptions {
+        display: none;
+    }
+}

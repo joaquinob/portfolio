@@ -1,6 +1,66 @@
-img{
-    max-width: 96px;
-}
+
 .main{
-    margin-top:100px
+    margin-top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.carousel{
+    padding: 3rem;
+}
+
+.carousel-inner{
+    border-radius: 10px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+.stack{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.stack-img{
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+}
+.carousel-caption{
+    color: #163832;
+    background-color: rgba(218, 241, 222, 0.5); /* 20% opaco, 80% transparente */
+
+    border: 1px solid #163832;
+    border-radius: 20px;
+}
+.card{
+    margin-bottom: 1rem;
+    background-color: #8eb69b;
+    color: #163832;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+.btn{
+    background-color: #163832;
+    border: #8eb69b;
+    color: #daf1de;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+/* 
+.carousel-item{
+    border-radius: 10px;
+    border: 2px solid #163832;
+} */
+
+/* img{
+    border-radius: 10px;
+    border: 2px solid #163832;
+} */
