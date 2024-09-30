@@ -3,22 +3,22 @@
     padding: 10px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between; /* Espaciado entre el h2 y el enlace */
-    align-items: center; /* Alinea verticalmente ambos elementos */
-}
-
 .pdf {
     width: 100%;
-    height: 75rem; /* Altura por defecto en pantallas grandes */
+    height: calc(100vh - 150px); /* Altura ajustada para que ocupe casi toda la pantalla menos la cabecera */
     min-height: 400px;
 }
 
 @media (max-width: 768px) {
     .pdf {
-        height: 50rem; /* Ajustar la altura en pantallas pequeñas */
+        height: calc(100vh - 150px); /* Ajustar a la altura completa de la pantalla en pantallas pequeñas */
     }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h2 {
@@ -29,11 +29,11 @@ h2 {
 a {
     color: #163832;
     text-decoration: none;
-    font-size: 1.5rem; /* Tamaño del icono */
+    font-size: 1.5rem;
 }
 
 a:hover {
-    color: #0d6efd; /* Cambia el color del icono al pasar el mouse */
+    color: #0d6efd;
 }
 
 hr {
