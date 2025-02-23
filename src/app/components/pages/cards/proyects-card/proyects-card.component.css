@@ -54,6 +54,12 @@ h2{
 .btn:hover{
     transform: scale(1.05);
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(35%) sepia(12%) saturate(500%) hue-rotate(180deg);
+}
+
 /* 
 .carousel-item{
     border-radius: 10px;
